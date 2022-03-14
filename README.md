@@ -1,15 +1,31 @@
-# Phase 2 Project Description
+# Providing Advice As a Real Estate Agent for Kent County Houses
 
-Another module down - you're almost half way there!
+## Overview
 
-All that remains in Phase 2 is to put your newfound data science skills to use with a large project!
+This project aims to provide advice to home buyers and seller in Kent County. For sellers, the aim is to develop a machine learning model that can predict a house's price given its various features, so that the seller will decide on the selling price. On the other hand, the predicted price will help the buyer to understand if the house is marketed at a fair price. 
 
-In this project description, we will cover:
+The data is provided by Flatiron school and collected from the Kaggle. 
 
-* Project Overview: the project goal, audience, and dataset
-* Deliverables: the specific items you are required to produce for this project
-* Grading: how your project will be scored
-* Getting Started: guidance for how to begin working
+Using explatory data analysis, I tried to understand ..
+
+# Data Understanding
+
+Kent County House Prices Data includes the following information:
+
+-Price
+-Sale Date, Year Built, Renovation Date
+-Number of bedrooms, bathrooms, floors
+-Waterfront, view
+-Condition, grade
+-Sqft of living area, lot, basement, above and sqft of living area and lot for 15 nearest neighbors
+-Zip Code, latitude, longitude
+
+Price Range
+-Min: $78k
+-Max: $7.7M
+-Avg: $540k
+
+
 
 ## Project Overview
 
