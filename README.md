@@ -6,7 +6,8 @@ This project aims to provide advice to home buyers and sellers in Kent County. F
 
 The data is provided by Flatiron school and collected from the Kaggle. 
 
-# Data Understanding
+
+## Data Understanding
 
 
 This project uses the King County House Sales dataset, which can be found in  `kc_house_data.csv` in the data folder in this GitHub repository. The description of the column names can be found in `column_names.md` in the same folder. 
@@ -27,11 +28,8 @@ Price Range
 -Avg: $540k
 
 
-## Project Overview
+## Business Problem
 
-For this project, I used multiple linear regression modeling to analyze house sales in Kent county.
-
-### Business Problem
 
 I develop this project for a real estate agency that makes recommendations to sellers on home renovations and to buyers/sellers on the price of the house. The problems I will focus on are below:
 
