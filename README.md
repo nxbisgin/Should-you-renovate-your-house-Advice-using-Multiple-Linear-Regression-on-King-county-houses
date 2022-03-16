@@ -69,7 +69,7 @@ Living Area: Square footage of living space in the house.
 
 Buyer:
 -Should I renovate my house?
--Renovating the house will increase the log price of the house by 0.0423, which means the new price will be 1.04 times the old price. If the house is worth $100k, it will become  $104k after renovation. Since the renovation will certainly cost more than $4k, I do not recommend renovations.
+-I would highly recommend renovating the house if the grade of the house is increased or more living area is added by renovation.
 
 
 ## Next Steps
