@@ -22,18 +22,19 @@ This project uses the King County House Sales dataset, which can be found in  `k
 
 Kent County House Prices Data includes the following information:
 
--Price
+- Price
   -Min: $78k
   -Max: $7.7M
   -Avg: $540k
+  
 ![prices](https://raw.githubusercontent.com/nxbisgin/phase-2-project-Kent-County-House-Price-Prediction-Linear-Regression/main/prices.png)
   
 
--Sale Date, Year Built, Renovation Date
--Number of bedrooms, bathrooms, floors
--Waterfront, view
--Condition, grade
--Sqft of living area, lot, basement, above and sqft of living area and lot for 15 nearest neighbors
+- Sale Date, Year Built, Renovation Date
+- Number of bedrooms, bathrooms, floors
+- Waterfront, view
+- Condition, grade
+- Sqft of living area, lot, basement, above and sqft of living area and lot for 15 nearest neighbors
 -Zip Code, latitude, longitude
 
 
