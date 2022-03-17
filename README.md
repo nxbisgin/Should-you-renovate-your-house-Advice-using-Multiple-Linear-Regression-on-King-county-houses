@@ -38,48 +38,38 @@ Kent County House Prices Data includes the following information:
 -Zip Code, latitude, longitude
 
 
-
-
 ## Model
 
 I developed a multiple linear regression model to predict the house prices.
 
+![modelerror](https://raw.githubusercontent.com/nxbisgin/phase-2-project-Kent-County-House-Price-Prediction-Linear-Regression/main/modelerror.png)
+
 The model can explain ~56% of variability in data.
 
-The model uses the following features to predict the price:
-* Grade
-* Living area
-* Has basement or not
-* On waterfront or not
-* Renovated or not
-* Number of floors
 
-The model formula is approximately like below:
-Price ~=   1.28*Grade + 1.15*Living area + 1.07*Has basement + 1.05*On waterfront + 1.04*Renovated + 1.008*Number of floors
+## Most Important Feature: Grade
+
+Price increases most with the increase in the grade of the house.
+
+![grade](https://raw.githubusercontent.com/nxbisgin/phase-2-project-Kent-County-House-Price-Prediction-Linear-Regression/main/grade.png)
+
+If the grade increases by 1 unit, the price increases by 28%.
 
 
-## Results
+## Second Most Important Feature: Living Area
+
+Second most effective feature on the price is the living area of the house.
+
+![living_area](https://raw.githubusercontent.com/nxbisgin/phase-2-project-Kent-County-House-Price-Prediction-Linear-Regression/main/living_area.png)
+
+If the living area of the house increases by 10%, the price will increase by 1%.
 
 
-Buyer:
--Given the features of the house, is the price reasonable?
--I can predict the house price with 56% accuracy.
+## Recommendations
 
-Buyer:
--Which features are most predictive of the price?
--Overall Grade of the house determined by King County: Related to construction and design of the house. Ranges from 1 to 13, from very poor to excellent.
-Living Area: Square footage of living space in the house.
+- Which features are most effective of the price?
+- Overall Grade of the house determined by King County: Related to construction and design of the house. Ranges from 1 to 13, from very poor to excellent.
+- Living Area: Square footage of living space in the house.
 
-Buyer:
--Should I renovate my house?
--I would highly recommend renovating the house if the grade of the house is increased or more living area is added by renovation.
-
-
-## Next Steps
-
-Zip code: Information about zip code is not included in the model. I may need to go deeper into zip codes to incorporate zip codes.
-
-Age of house: I believe age of house should be important for predicting the price but could not be used in the model due to non-linear relation. I may use binning to incorporate age into the model.
-
-
-
+- Should the house be renovated?
+- I would highly recommend renovating the house if the grade of the house is increased or more living area is added by renovation.
